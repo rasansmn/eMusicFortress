@@ -1,0 +1,186 @@
+body   
+{
+    background: #b6b7bc;
+	font-family: Tahoma;
+	font-size: 14px;
+	line-height:150%;
+    margin: 0px;
+    padding: 0px;
+    color: #666666;
+}
+
+h2
+{
+color: #333333;
+}
+
+a{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	color: #004DBF;
+	text-decoration:none
+}
+a:hover {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	color: #004DBF;
+	text-decoration:underline
+}
+
+.page
+{
+width: 960px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.header
+{
+height:90px;
+
+background-image:url('../images/img1.jpg');
+background-size:100% 100%;
+background-repeat: repeat-x;
+color: #ffffff;
+font-size: 40px;
+font-weight: bold;
+padding:50px 25px 0px;
+text-align:right;
+}
+
+.main-menu
+{
+	height:34px;
+	vertical-align: middle;
+background-image:url('../images/img2.gif');
+background-size:100% 100%;
+padding:14px 0px 0px;
+text-align: center;
+}
+
+.main-menu a:link
+{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	 color: #5C7185;
+	 text-decoration:underline
+}
+
+.main-menu a:visited {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5C7185;
+	text-decoration:underline
+}
+
+.main-menu a:hover {
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: normal;
+	color: #2D0F00;
+	text-decoration:none
+}
+
+.wrapper
+{
+float:left;
+width: 960px;
+background:#FFBB77;
+}
+
+.v-menu
+{
+background-color:#FFBB77;
+width:210px;
+float:left;
+padding:10px 20px 20px 20px; 
+text-align: left;
+color: #585858;
+}
+
+.content
+{
+background-color:#ffffff;
+width:650px;
+float:left;
+padding:0px 30px 20px 30px; 
+text-align: left;
+min-height: 500px;
+}
+
+.footer
+{
+background-color:#2D0F00;
+height:35px;
+clear:both;
+text-align:center;
+color: #FFFFFF;
+padding:12px 0px 0px 0px; 
+}
+
+.login
+{
+font-size: 12px;
+}
+
+.register
+{
+width:100%;
+}
+
+.err
+{
+	color: #FF0000;
+}
+
+.thumb
+{
+	height:20px;
+	width:20px;
+}
+
+hr
+{
+height:0; 
+  border:0; 
+  border-top:1px solid #E6E6E6;
+}
+
+img.main
+{
+width: 480px;
+height: 150px;
+}
+
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+    width: 325px;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset input, fieldset textarea, fieldset select
+{
+width: 320px;
+}
+
+.submit-button
+{
+    width: 370px;
+	text-align:right;
+}
